@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com videos</title>
+</head>
+<body>
+    <h1>inserindo videos hospedado localmente</h1>
+    <p>este video ta hospedado no meu proprio servidor</p>
+    <p>a reproducao esta disponivel apenas em <b>mp4/mkv</b></p>
+<video width="200/200" controls
+>
+<!--a teg control dentro de teg video serv para aparecer os botoes de play volume et.. / ja a tag width serve para diminuir o quadro do video na tela mais nao influencia noo tamanho do video não-->
+<source src="midiav/barco.mp4"type="video/mp4">
+<source src="midiav/barco2.mkv"type="video/mp4">
+<p>formato de video requerido nao encontrado</p>
+</video>
+
+<p>videos hospedado no meu proprio servidor  com 3 formatos diferentes <b>mp4/mkv/ogv.</b></p>
+
+<video width="200" controls>
+    <!--a ordem dos videos vai diser qual video sera reprodusido primeiro se nao o proximo e etc.. melhor opção começar por mp4-->
+<source src="midiav/ovos.mp4"type="video/mp4">
+<source src="midiav/ovos2.mkv"typ="video/mkv">
+<source src="midiav/ovos_1.ogv" type="video/ogv">
+<p>seu navegador nao tem compatibilidade com reproducao de video <b>vamos atualizar</b></p>
+<!--quanto mais formato de videos estiver a disposicao do navegador maior a chance de ele ser reproduzido para diferentes usuarios-->
+</video>
+
+<!--o modelo da aula e de como colocar videos dentro do seu site e os melhores formatos -->
+    
+</body>
+</html>

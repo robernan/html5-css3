@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+
+        }
+        a:active{
+            color: yellowtarget="_blank";
+        }
+        a::after{
+            content: [link];
+            text-decoration:line-through ;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>
+    personalizando links
+</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCnndmm0M4oiKVpIcSy7TlNA"target="_blank">canal do youtube</a></li>
+        <li><a href="https://www.instagram.com/robernaan_07/"target="_blank">intagran</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo"target="_blank">curso em video</a></li>
+
+
+    </ul>
+
+</body>
+</html>
