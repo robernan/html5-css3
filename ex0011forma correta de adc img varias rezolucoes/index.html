@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+<p>
+tene abrir esse site em varios dispositivos diferente ou tente simplismente aumente e diminua o tamanho do seu navegador
+</p>
+<picture><!--para as imagens carregar de acordo a rezolucao exata de tela tem q ser da menor foto para o maior foto-->
+    <source media="(max-width :750px)" srcset="imagens/fotop.png" type="image/png"><!--esse codigo escrito com esse esquema tem q ser a cima do outro para poder ocorrer tudo OK com o arquivo de img menor em cima-->
+    <source media="(max-width: 1000px)" srcset="imagens/fotom.png" type="image/png">
+<img src="imagens/fotog.png" alt="imagens flexiveis">
+</picture>
+
+<h2> aprendendo a adicionar aodio</h2>
+<audio src="midia/pines.mp3" controls autoplay></audio>
+<audio src="">
+    <source src="midia/rock.mp3"type="audio/mpeg">
+</audio>
+</body>
+</html>
