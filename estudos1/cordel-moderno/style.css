@@ -6,48 +6,72 @@
     src: url('/estudos1/cordel-moderno/fontes/PassionOne-Regular.ttf');
     font-weight: bolder;
 }
-body{ 
+*{
     margin: 0px;
     padding: 0px;
-    background-position: 100%, 100%;
+}
+html,body{
+    min-height: 100vh;
+    background-color: aqua;
 }
 header{
-    font-family: 'passion one', 'cursive';
     background-color: black;
-  
-    padding: 20px;
     color: white;
-  font-size: 40px;
-  text-align: center;
-   
-}
-header > p{
-    font-size: medium;
-}
-header > p > a{ 
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+    text-align: center;
     
 }
-header > p > a:hover{
-    text-decoration: underline;
-    background-color: aquamarine;
-    color: black;
-    border-radius: 10px;
+header > h1{
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 40px;
 }
-main{
-    font-family: 'cursive';
+header > p{
+    padding: 50px;
+}
+    a{
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }  
 
-}
-section > p{
-    display: block;
-}
-#img1{
-    background-position: 'absoluto';
-background-image: url('imagens/cachoeira.jpg');
- right: 300px;
- left: 400px;
-  background-repeat: no-repeat;
-  background-size: 100%, 100%;
-}
+a:hover{
+            text-decoration: underline;
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+        }
+        section{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 30px;
+        }
+        .imagem{
+             background-color: rgb(143, 99, 99); 
+            color: white;
+        }
+            .imagem > p{
+                background-color: rgba(0, 0, 0, 0.397);
+                width: 400px;
+              
+            }
+             #img1{
+                background-image: url('imagens/background001.jpg'); 
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center, center;
+                 
+            }
+            #img2{
+                background-image: url('imagens/background002.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center, center;
+            }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
