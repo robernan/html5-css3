@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+    <style>
+        #container{
+
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;
+            /* ordem para posicionar uma caixa ex: conteiner (onde esta a caixa)
+            posicao relativa. E o conteudo(caixa que vai ser alterada) em posicionamento absoluto nunca ao contrario  */
+            height: 95vh;
+            padding: 10px;
+            background-color:blueviolet; 
+             
+            /* para facilitar a centralizacao de mtela sem barra de rolagem colocar o valor em (heith VH)  */
+          
+        }
+        #conteudo{ 
+            
+
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: yellow;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            
+           /* posicao absoluta e a melhor opcao para centralisar em qualquer tamanho de janela */
+
+             left: 50%;
+            top: 50%; 
+           transform: translate( -50%, -50%);
+
+           /* para sentralisar caixas melhor usar porcentagem % e no transform( nao esquecer de por a (,) pq senao os valores vao ser ignorados) */
+
+        }
+       
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h1> container</h1>
+        <article id="conteudo">
+            <h1>conteudo</h1>
+        </article>
+    </section>
+</body>
+</html>
