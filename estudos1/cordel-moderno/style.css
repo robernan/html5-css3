@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* @import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');*/
+@font-face {
+    font-family:' passion one';
+    src: url('/estudos1/cordel-moderno/fontes/PassionOne-Regular.ttf');
+    font-weight: bolder;
+}
+body{ 
+    margin: 0px;
+    padding: 0px;
+    background-position: 100%, 100%;
+}
+header{
+    font-family: 'passion one', 'cursive';
+    background-color: black;
+  
+    padding: 20px;
+    color: white;
+  font-size: 40px;
+  text-align: center;
+   
+}
+header > p{
+    font-size: medium;
+}
+header > p > a{ 
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+header > p > a:hover{
+    text-decoration: underline;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+}
+main{
+    font-family: 'cursive';
+
+}
+section > p{
+    display: block;
+}
+#img1{
+    background-position: 'absoluto';
+background-image: url('imagens/cachoeira.jpg');
+ right: 300px;
+ left: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
