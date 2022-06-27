@@ -27,6 +27,7 @@
             border-collapse: collapse;
             margin: auto; 
             background-color: gainsboro;
+            position: relative;
 
         }
         td, th{
@@ -37,8 +38,14 @@
             background-color: darkslategrey;
             color: white;
         }
+        thead > tr > th{
+            position: sticky;
+             top: -1px;
+             background-color: darkslategray;
+        }
         td.num{
             text-align: right;
+           
         }
         caption{
             font-family: Arial, Helvetica, sans-serif;
