@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando tabulação</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+        td{
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;  /* text-alig= alinhamento horizontal */
+           vertical-align: top ; /*alinhamento vertical aki (centro emiddle) */
+        }
+        .t2{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        minha primeira tabela
+    </h1>
+    <table>
+        <!--tambem pode ser usado class em celulas especificas tanto no (tr> linha)quanto no (td> celula)-->
+        <tr>
+            <h2>primeira linha</h2>
+            <td>a1</td> 
+            <td>b2</td>
+            <td>c1</td>
+        </tr>
+        <tr class="t2">
+            <td>a2</td> 
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr>
+            <td>a3</td> 
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+        <tr class="t2">
+            <td>a4</td> 
+            <td>b4</td>
+            <td>c4</td>
+            </tr>
+            <td>a5</td>
+            <td>b5</td>
+            <td>c5</td>
+        </tr>
+    </table>
+</body>
+</html>
